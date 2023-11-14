@@ -1,0 +1,13 @@
+
+/* Mobile Phone */
+@media (min-width: 530px) {
+    /* Hide the regular navigation menu */
+    .navigation-container .nav-menu {
+        display: flex;
+    }
+
+    .navigation-container .hamburger{
+        display: none;
+    }
+
+}
