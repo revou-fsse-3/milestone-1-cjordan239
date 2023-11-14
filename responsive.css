@@ -10,8 +10,7 @@
         display: none;
     }
 
-    .mainproduct-container {
-
+    #mainProduct .mainproduct-container {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -21,10 +20,8 @@
         align-items: center;
         background-color: black;
     }
-    
 
-    .mainproduct-container2 {
-
+    #mainProduct2 .mainproduct-container {
         display: flex;
         flex-direction: row;
         width: 100%;

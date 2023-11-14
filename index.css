@@ -80,6 +80,7 @@
 .news-arrival {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 4px rgb(173, 164, 164);
 }
 
 .newarrival-container {
@@ -146,7 +147,55 @@
 
 /* News & Arrival line */
 
-.mainproduct-container {
+/* ALLWHITE series line */
+#mainProduct .mainproduct-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 4px rgb(173, 164, 164);
+}
+
+#mainProduct .typeproduct {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 100px;
+    text-shadow: 0px 0px 4px rgb(173, 164, 164);
+}
+
+#mainProduct .mainproduct-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    background-color: rgb(0, 0, 0);  
+    box-shadow: 2px 5px 40px gold; 
+}
+
+#mainProduct .mainproduct-container .mproduct-card {
+    width: 100%;
+    height: auto;
+    
+}
+
+#mainProduct .mainproduct-container .mproduct-card img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+    filter: grayscale(1);
+
+
+}
+/* ALLWHITE series line */
+
+/* Sakura series line */
+#mainProduct2 .typeproduct {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    text-shadow: 0px 0px 4px rgb(173, 164, 164);
+}
+#mainProduct2 .mainproduct-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -154,105 +203,61 @@
     height: auto;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    
 }
 
-.mainproduct-title {
-    text-align: center;
+#mainProduct2 .mainproduct-container .mproduct-card-sakura {
+    width: 100%;
+    height: auto;
+
+}
+
+#mainProduct2 .mainproduct-container .mproduct-card-sakura img {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+
+}
+/* Sakura series line */
+
+/* footer */
+
+#footer {
+    background-color: grey;
+}
+#footer .container-footer {
+    width: 100%;
+    background-color: grey;
+    margin: auto;
+}
+#footer .container-footer ul, #footer .container-footer a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    color: white;
+}
+
+#footer .container-footer .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 70px 0px;
+    margin: a;
+}
+
+#footer .container-footer .row .footer-col {
+    width: 25%;
+}
+
+#footer .container-footer .row .footer-col {
     font-family: 'Poppins', sans-serif;
 }
 
-.typeproduct {
-    text-align: center;
-    font-family: 'Poppins', sans-serif; 
-}
-
-.mproduct-card-whiteseries1 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-whiteseries1 img {
-    width: 100%;
-    height: auto;
-    transition: .3s;
-    cursor: pointer;
+#footer .container-footer .row .social-link {
+    font-family: 'Poppins', sans-serif;
 
 }
-
-.mproduct-card-whiteseries2 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-whiteseries2 img {
-    width: 100%;
-    height: auto;
-    transition: .3s;
-    cursor: pointer;
-
-}
-
-.mproduct-card-whiteseries3 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-whiteseries3 img {
-    width: 100%;
-    height: auto;
-    transition: .3s;
-    cursor: pointer;
-
-}
-
-.mainproduct-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-evenly;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    
-}
-
-
-.mproduct-card-sakura1 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-sakura1 img {
-    width: 100%;
-    height: auto;
-
-}
-
-.mproduct-card-sakura2 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-sakura2 img {
-    width: 100%;
-    height: auto;
-
-}
-
-.mproduct-card-sakura3 {
-    width: 100%;
-    height: auto;
-}
-
-.mproduct-card-sakura3 img {
-    width: 100%;
-    height: auto;
-
-}
-
-
 
 
 
