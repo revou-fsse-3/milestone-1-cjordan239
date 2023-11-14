@@ -64,36 +64,16 @@
 /* Navigation Line */
 
 
-.aboutus-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner-container {
     width: 100%;
-    height: 50vh;
-    background: url(/Asset/aboutusrealpic.jpg);
-    background-size: cover;
-    background-position: center;
     margin-top: 10px;
 }
 
-.aboutus-left {
-    color: rgb(0, 0, 0);
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+.banner-container img {
+    width: 100%;
+    height: 600px;
 }
 
-
-
-.aboutus-left a {
-    text-decoration: none;
-    color: white;
-}
-
-.aboutus-container .aboutus-left button {
-    background: transparent;
-    border: 2px red;
-}
 
 /* Banner Line */
 
@@ -134,15 +114,12 @@
 
 .newarrival-container .narrival-card3{
     grid-row: 1/2 span;
-    grid-column: 3/2 span;
+    grid-column:2 span;
+    background:url(Asset/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
-}
-
-.newarrival-container .narrival-card3 img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    place-items: center;
 }
 
 .newarrival-container .narrival-card4{
@@ -171,15 +148,17 @@
 
 .mainproduct-container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-evenly;
     height: auto;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    background-color: rgb(0, 0, 0);
     
 }
 
-.mainproduct {
+.mainproduct-title {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -189,15 +168,88 @@
     font-family: 'Poppins', sans-serif; 
 }
 
-.mproduct-card {
-    width: 30%;
+.mproduct-card-whiteseries1 {
+    width: 100%;
     height: auto;
 }
 
-.mproduct-card img {
+.mproduct-card-whiteseries1 img {
     width: 100%;
     height: auto;
-    display: block;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.mproduct-card-whiteseries2 {
+    width: 100%;
+    height: auto;
+}
+
+.mproduct-card-whiteseries2 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.mproduct-card-whiteseries3 {
+    width: 100%;
+    height: auto;
+}
+
+.mproduct-card-whiteseries3 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.mainproduct-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    
+}
+
+
+.mproduct-card-sakura1 {
+    width: 100%;
+    height: auto;
+}
+
+.mproduct-card-sakura1 img {
+    width: 100%;
+    height: auto;
+
+}
+
+.mproduct-card-sakura2 {
+    width: 100%;
+    height: auto;
+}
+
+.mproduct-card-sakura2 img {
+    width: 100%;
+    height: auto;
+
+}
+
+.mproduct-card-sakura3 {
+    width: 100%;
+    height: auto;
+}
+
+.mproduct-card-sakura3 img {
+    width: 100%;
+    height: auto;
+
 }
 
 
