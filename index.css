@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 .navigation-container {
     display: flex;
     justify-content: space-around;
@@ -168,8 +172,8 @@
     justify-content: space-evenly;
     height: auto;
     align-items: center;
-    background-color: rgb(0, 0, 0);  
-    box-shadow: 2px 5px 40px gold; 
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 2px 5px 40px rgb(255, 132, 0); 
 }
 
 #mainProduct .mainproduct-container .mproduct-card {
@@ -203,6 +207,9 @@
     height: auto;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    box-shadow: 2px 10px 40px black; 
+    margin-bottom: 15px;
+    
 }
 
 #mainProduct2 .mainproduct-container .mproduct-card-sakura {
@@ -248,9 +255,6 @@
 
 #footer .container-footer .row .footer-col {
     width: 25%;
-}
-
-#footer .container-footer .row .footer-col {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -258,6 +262,8 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* Footer line */
 
 
 
