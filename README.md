@@ -1,4 +1,4 @@
-![FrontPage](/Asset/Asset/Front Page.png)
+![FrontPage](/Asset/front-page.png)
 
 Jrecipe Documentation
 Introduction
