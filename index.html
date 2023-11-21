@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="animation.css">
 
     <!-- My style font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" fonts.googleapis.com>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
@@ -33,6 +33,7 @@
                 <a href="#">Profile</a>
                 <a href="#">Product</a>
                 <a href="#">Login</a> 
+                <button class="darkmodebutton" onclick="darkMode()"></button>
             </div>
             
             <!-- Hamburger -->
@@ -122,6 +123,49 @@
         </div>
     </section>
     
+    <section id="mainProduct3">
+        <div class="container">
+            <div class="carousel">
+                <div class="slider">
+                    <div class="mainproduct3-content mproduct3-content1">
+                        <img src="Asset/carousel1.jfif" alt="">
+                    </div>
+                    <div class="mainproduct3-content mproduct3-content2">
+                        <img src="Asset/Carousel2.jfif" alt="">
+                    </div>
+                    <div class="mainproduct3-content mproduct3-content3">
+                        <img src="Asset/carousel3.jfif" alt="">
+                    </div>
+                    <div class="mainproduct3-content mproduct3-content3">
+                        <img src="Asset/Carousel4.jfif" alt="">
+                    </div>
+                    <div class="mainproduct3-content mproduct3-content3"> content 5</div>
+                </div>
+
+                <div class="control-mainproduct3">
+                    <span class="arrow left">
+                        <i data-feather="chevron-left"></i>
+                    </span>
+                    <span class="arrow right">
+                        <i data-feather="chevron-right"></i>
+                    </span>
+
+                    <ul>
+                        <li class="selected"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        
+                    </ul>
+        
+                </div>
+
+            </div>
+        </div>
+
+        
+    </section>
 
     <footer id="footer">
         <div class="container-footer">
@@ -169,9 +213,9 @@
             </div>
         </div>
 
-
-
     </footer>
+
+    <script src= 'main.js'></script>
 
       <!-- Script for FeatherIcon (external library) -->
     <script>
@@ -179,5 +223,10 @@
       </script>
 
       <!-- Script for FeatherIcon (external library) -->
+
+
+
+      
+
 </body>
 </html>

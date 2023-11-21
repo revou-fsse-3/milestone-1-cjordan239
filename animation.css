@@ -1,3 +1,20 @@
+.navigation-container .nav-menu a:hover {
+   color: rgb(0, 0, 0);
+}
+
+.navigation-container .nav-menu a::after {
+   content: '';
+   display: block;
+   border-bottom: solid 1px rgb(0, 0, 0);
+   transform:scaleX(0);
+   transition: 0.4s linear;
+}
+
+.navigation-container .nav-menu a:hover::after {
+   color: rgb(0, 0, 0);
+   transform:scaleX(1)
+}
+
 #mainProduct .mproduct-card img:hover {
    transform: scale(.7);
    background: white  ;

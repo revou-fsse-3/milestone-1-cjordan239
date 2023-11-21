@@ -3,6 +3,16 @@ html {
     scroll-behavior: smooth !important;
 }
 
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 .navigation-container {
     display: flex;
     justify-content: space-around;
@@ -38,23 +48,6 @@ html {
     color: black;
     transition: 0.5s ease;
 
-}
-
-.navigation-container .nav-menu a:hover {
-    color: rgb(0, 0, 0);
-}
-
-.navigation-container .nav-menu a::after {
-    content: '';
-    display: block;
-    border-bottom: solid 1px rgb(0, 0, 0);
-    transform:scaleX(0);
-    transition: 0.4s linear;
-}
-
-.navigation-container .nav-menu a:hover::after {
-    color: rgb(0, 0, 0);
-    transform:scaleX(1)
 }
 
 .navigation-container .hamburger {
@@ -227,6 +220,129 @@ html {
 
 }
 /* Sakura series line */
+/* Main Product3 Line */
+
+#mainProduct3 .container {
+    width: 70%;
+    margin: 20px auto;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+#mainProduct3 .container .carousel {
+    border: solid 3px rgb(255, 255, 255);
+    height:400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#mainProduct3 .container .carousel .slider {
+    height: 100%;
+    display: flex;
+    width: 500%;
+    border: solid 2px rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+
+#mainProduct3 .container .carousel .slider .mainproduct3-content {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainProduct3 .container .carousel .slider .mproduct3-content1 img {
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 .arrow.left {
+    left: 10px;
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 .arrow.right {
+    right: 10px;
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 ul li {
+    width: 15px;
+    height: 15px;
+    border: solid 2px;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#mainProduct3 .container .carousel .control-mainproduct3 ul li.selected {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Product3 Line */
 
 /* footer */
 

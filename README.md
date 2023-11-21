@@ -23,20 +23,20 @@ The HTML file (index.html) consists of the following main sections:
                  2. Css File
                  3. Style Font
 - Body
-    1. Navbar : - Navigation Line
+    1. Navbar : - Navigation Line<br>
                 - Hamburger Icon
     2. Section About us
     3. Section NewsArrival 
     4. Section Main Product
     5. Section Main Product2
-- Footer :-. FooterColumn
+- Footer :-. FooterColumn<br>
           -. SocialLink                
     
 # Ingredient i use : 
 - html
-- 3 css file consist of : 1. index.css -> this is main css
-                          2. responsive.css -> css for responsive
-                          3. animation.css -> css for animation
+- 3 css file consist of : 1. index.css -> this is main css <br>
+                          2. responsive.css -> css for responsive <br>
+                          3. animation.css -> css for animation <br>
 - external image -> goole, bing
 - external icon -> from feathericon
   
@@ -49,9 +49,9 @@ The HTML file (index.html) consists of the following main sections:
 # How to push to main :
 
 1. open terminal vsc 
-2. input : 1. Git add . 
-           2. Git commit -m "input my commit message"
-           3. git push origin main
+2. input : 1. Git add . <br>
+           2. Git commit -m "input my commit message" <br>
+           3. git push origin main <br>
 
 # Deployment :
 
